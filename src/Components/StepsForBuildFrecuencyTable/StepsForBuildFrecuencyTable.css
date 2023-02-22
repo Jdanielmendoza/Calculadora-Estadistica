@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.ContainerSteps{
+    width: 100%;
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:80px 20px 20px 10px;
+    background-color: #1e2425;
+}
+.TitleSteps{
+    color: #ffcb3a;
+    text-shadow: 1px 1px 0 #ff4f61;
+    font-size: 22px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    padding-left: 10px ;
+    border-left: 2px solid #ffcb3a;
+    border-image: linear-gradient(to bottom,  #ff4f61 ,#ffcb3a) 1 100%;
+}
+.Steps{
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(to bottom,  #ffcb3a ,#ff4f61) 1 100%;
+    width: 100%;
+}
+
+.ListSteps{
+    list-style: none;
+    position: relative;
+}
+.ListSteps>li>div{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.ListSteps>li>div>p{
+    color: #ffcb3a;
+    padding: 0 10px 0 0;
+}
+#datosOrd{
+    width: 100%;
+    word-wrap: break-word;
+    line-height: 30px;
+    padding-right: 30px;
+}
+.ListSteps>li>p{
+    color: #aaa;
+    font-family:'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-top: 3px;
+}
+.ListSteps>li{
+    padding: 0px 5px 40px 55px;
+    position: relative;
+    text-align: left;
+}
+
+
+.ListSteps>li::before{
+    content: "";
+    width: 25px ;
+    height: 1px;
+    background-color: #ffcb3a;
+    position: absolute;
+    left: 0;  
+    top: 15px;  
+}
+.ListSteps>li::after{
+    content:"";
+    width: 30px ;
+    height: 30px;
+    position: absolute;
+    background-color: #ff4f61;
+    color:#1e2425;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50%;
+    left: 15px;
+    top: 0;
+    box-shadow: 0px 0px 0px 3px #343b3c ;
+    text-align: center;
+}
+
+
+#S1::after{content: "1";}
+#S2::after{content: "2";}
+#S3::after{content: "3";}
+#S4::after{content: "4";}
+
+

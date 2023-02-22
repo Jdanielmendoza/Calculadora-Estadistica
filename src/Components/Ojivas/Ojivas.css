@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Ojiva{
+    width: 97%;
+    height: auto;
+    padding:10px;
+    border: 1px solid #666;
+    margin: 10px;
+    
+}
+#yOjiva{
+    width: 65px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #ffcb3a;
+    color: #222;
+    text-align: center;
+    
+}

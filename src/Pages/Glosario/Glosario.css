@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
+
+
+:root {
+    --Redlight: #ff4f61;
+    --Yellow: #ffcb3a;
+    --PurpleDark: #511d47;
+    --Gray: #343b3c;
+    --GrayDark: #1e2425;
+}
+
+.ContainerGlosario {
+    color: black;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(#1e2425 ,rgb(61, 9, 51));
+    padding-top: 120px;
+}
+
+.TitleGlosario {
+    width: 100%;
+    text-align: center;
+    color: #ffcb3a ;
+    font-size: 36px;
+    padding: 20px 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.ContainerGlosario>div {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+*{
+    color: white;
+}
+.containerCalc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #343b3c;
+    padding: 50px 5px 10px;
+    text-align: center;
+}
+
+.image1{
+    width: 150px;
+    max-width: 350px;
+    object-fit: contain;
+}
+.image2{
+    width: 250px;
+    max-width: 350px;
+    object-fit: contain;
+}
+.image3{
+    width: 350px;
+    max-width: 350px;
+    min-width: 200px;
+    object-fit: contain;
+}
+
+.containerCalc>div{
+    width: 90%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ff4f61;
+}
+.containerCalc>div>p{
+    color: #FFcb3a;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+

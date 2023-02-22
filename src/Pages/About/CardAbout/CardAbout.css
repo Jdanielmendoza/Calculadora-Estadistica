@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;500&display=swap');
+.ContainerCardAbout {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    background: linear-gradient(#ffcb3a04 ,#c0992d12);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 3px 3px 5px #252525aa ,inset 1px 1px 3px #aaa8;
+    
+}
+
+#TitleCard{
+    color: #ffcb3acc;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    padding: 10px 0 15px 0;
+}
+
+#SubtitleCard{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ccc;
+    line-height: 22px;
+}

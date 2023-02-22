@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ContainerFooter{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#343b3c, #ff4f61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.Version{
+    color:#ffcb3a;
+    font-size: 30px;
+    padding-bottom: 70px;
+    font-family: 'Righteous', cursive;
+}
+.atribucion{
+    color: #ffcb3a;
+    font: 16px;
+    padding:50px 0 100px 0;
+
+}
+
+.coment{
+    width: 95%;
+    color: #ffcb3a;
+    border-bottom: 1px solid #ffcb3a;
+}
+.FormEmail{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #511d4744;
+    margin-bottom: 30px;
+    padding: 30px 15px 15px 15px;
+}
+
+.FormEmail>label{
+    color:#ffcb3a;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.FormEmail>input{
+    width: 100%;
+    height: 50px;
+    color: #1e2425;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #eee;
+
+}
+.FormEmail>textarea{
+    width: 100%;
+    height: 80px;
+    color: #343b3c;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #eee;
+}
+#SendForm{
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    background-color: #ff4f61;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .2s;
+}
+#SendForm:hover{
+    background-color: #ff4f6199;
+}
+#SendForm:active{
+    background-color: #ffcb3a;
+}
+.MEnviado{
+    background-color: #ffcb3a !important;
+     
+}

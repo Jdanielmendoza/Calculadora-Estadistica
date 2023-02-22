@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*quita el fondo azul al
+                                                    seleccionar cualquier elemento de mi header*/
+                                                }
+                                                
+.navbar{
+    width: 40px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+    cursor: pointer;
+    z-index: 100;
+}
+.navbar>span{
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    background-color:#ffcb3a;
+    transition: all .35s;
+}
+.listItems{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    background:linear-gradient(#343b3cf9 , #1e2425f9);
+    transition: all .35s;
+    overflow: hidden;
+    list-style: none;
+}
+ul li{
+    width: 100%;
+    padding:35px;
+    text-align: center;
+}
+ul li a{
+    font-weight: 800;
+    text-decoration: none;
+    color:#ffcb3a;
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 3px #ff4f61;
+    transition: all .35s;
+}
+ul li a:hover{
+    color:#ff4f61;
+    text-shadow: 1px 1px 0px #ffcb3a;
+    transition: all .35s;
+}
+
+
+/*  event when click */
+
+
+.navbarclick>.bar1{
+    transition: all .35s;
+    transform: rotateZ(45deg);
+    transform-origin: left 100%;
+    translate: -3px -3px;
+    z-index: 300;
+}
+.navbarclick>.bar2{
+    transform: translateX(50px);
+    opacity: 0;
+    transition: all .35s;
+
+}
+.navbarclick>.bar3{
+    transform: rotateZ(-45deg);
+    transform-origin: left 100%;
+    transition: all .35s;
+    translate: 0 2px;
+    z-index: 300;
+}
+
+
+.viewItems{
+    width: 100%;
+    background:linear-gradient(#343b3cf9 , #1e2425f9);
+    transition: all .35s;
+}

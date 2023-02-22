@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  --Redlight: #ff4f61;
+  --Yellow: #ffcb3a;
+  --PurpleDark: #511d47;
+  --Gray: #343b3c;
+  --GrayDark: #1e2425;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* max-width: 700px; */
+  height: auto;
+  min-height: 100vh;
+  background-color: #1e2425;
+}
+
+.boton {
+  width: 95%;
+  cursor: pointer;
+  background: var(--PurpleDark);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: -1px -1px 3px var(--Yellow);
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.boton:active {
+  box-shadow: 0px 1px 1px var(--Yellow);
+  background: #511d27;
+}
+
+.IconBar {
+  width: 40px;
+  height: 30px;
+}
+
+.textP {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+#Input {
+  width: 95%;
+  height: auto;
+  background-color: var(--Gray);
+  color: #dde;
+  margin: 15px;
+  margin-top: 0;
+  font-size: 22px;
+  padding: 10px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+.pIn{
+  margin-top: 130px;
+  width: 95%;
+  color: var(--Yellow);
+  font-size: 16px;
+}
